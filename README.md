@@ -2,8 +2,8 @@ Keperluan Praktikum RSBK 2018 Program Studi : S1 - Teknik Komputer Universitas D
 
 Berisikan 4 modul, masing - masing :
 
-- Pengenalan Netbeans dan Github
-- 
+- Java Bean dan Git
+- EJB Session Bean
 - 
 - 
 
