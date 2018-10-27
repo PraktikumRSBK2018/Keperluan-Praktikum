@@ -5,7 +5,7 @@
         try {            
             out.println("<html>");
             out.println("<body");
-            out.println("<h1>Tugas RSBK Konversi Suhu</h1>");
+            out.println("<h1><center>Tugas RSBK Konversi Suhu</center></h1>");
             String suhu = request.getParameter("suhu");
             
             if ((suhu != null) && (suhu.length() > 0)) {
