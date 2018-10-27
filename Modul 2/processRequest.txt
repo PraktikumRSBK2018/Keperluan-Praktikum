@@ -1,0 +1,62 @@
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException {
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = response.getWriter();
+        
+        try {            
+            out.println("<html>");
+            out.println("<body");
+            out.println("<h1>Tugas RSBK Konversi Suhu</h1>");
+            String suhu = request.getParameter("suhu");
+            
+            if ((suhu != null) && (suhu.length() > 0)) {
+                double d = Double.parseDouble(suhu);
+                if (request.getParameter("Celcius Ke Fahrenheit") != null){
+                    String cefa = konversisuhu.celcius_Fahrenheit(d);
+                    out.println("<p> HASIL KONVERSI SUHU: "+cefa+"</p>");
+                }  
+                if (request.getParameter("Celcius Ke Reamur") != null) {
+                    String cere = konversisuhu.celcius_Reamure(d);
+                    out.println("<p> HASIL KONVERSI SUHU: "+cere+ " .</p>");
+                }
+                if (request.getParameter("Reamur Ke Celcius") != null) {
+                    String rece = konversisuhu.reamure_Celcius(d);
+                    out.println("<p> HASIL KONVERSI SUHU: " +rece+ " .</p>");
+                }
+                if (request.getParameter("Reamur Ke Fahrenheit") != null) {
+                    String refa = konversisuhu.reamure_Fahrenheit(d);
+                    out.println("<p> HASIL KONVERSI SUHU: "+refa+ " .</p>");
+                }
+                if (request.getParameter("Fahrenheit Ke Celcius") != null) {
+                    String face = konversisuhu.fahrenheit_Celcius(d);
+                    out.println("<p> HASIL KONVERSI SUHU: "+face+ " .</p>");
+                }                
+                if (request.getParameter("Fahrenheit Ke Reamur") != null) {
+                    String fare = konversisuhu.fahrenheit_Reamure(d); 
+                    out.println("<p> HASIL KONVERSI SUHU: "+fare+ " .</p>");
+                }
+                
+            } else {
+                out.println("<center>");
+                out.println("<p>Masukan Suhu:</p>");
+                out.println("<form method=\"get\">");
+                out.println("<p><input type=\"text\" name=\"suhu\" size=\"20\"></p>");
+                out.println("<br/>");
+                out.println("<br/>");
+                out.println("<input type=\"submit\" name=\"Fahrenheit Ke Celcius\" value=\"Fahrenheit Ke Celcius\">"+ "<input type=\"submit\" name=\"Fahrenheit Ke Reamur\" value=\"Fahrenheit Ke Reamur\">");
+                out.println("<br/>");
+                out.println("<br/>");
+                out.println("<input type=\"submit\" name=\"Celcius Ke Fahrenheit\" value=\"Celcius Ke Fahrenheit\">"+ "<input type=\"submit\" name=\"Celcius Ke Reamur\" value=\"Celcius Ke Reamur\">");
+                out.println("<br/>");
+                out.println("<br/>");
+                out.println("<input type=\"submit\" name=\"Reamur Ke Fahrenheit\" value=\"Reamur Ke Fahrenheit\">"+ "<input type=\"submit\" name=\"Reamur Ke Celcius\" value=\"Reamur Ke Celcius\">");
+                out.println("</center>");
+                out.println("</form>");
+            }
+        
+        } finally {
+            out.println("</center>");
+            out.println("</body>");
+            out.println("</html>");
+            out.close();
+        }               
+    }
