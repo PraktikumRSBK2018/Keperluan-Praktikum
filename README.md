@@ -9,7 +9,7 @@ Berisikan 4 modul, masing - masing :
 
 Repo ini berisi :
 
-Kelompok praktikum fix
-Modul praktikum dari modul 1 - modul 4
-SOP praktikum
-Nilai praktikum
+- Kelompok praktikum fix
+- Modul praktikum dari modul 1 - modul 4
+- SOP praktikum
+- Nilai praktikum
