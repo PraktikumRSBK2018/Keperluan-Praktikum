@@ -4,8 +4,8 @@ Berisikan 4 modul, masing - masing :
 
 - Java Bean dan Git
 - EJB Session Bean
-- 
-- 
+- CRUD EJB
+- Java Server Faces
 
 Repo ini berisi :
 
