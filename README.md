@@ -1,15 +1,17 @@
-Keperluan Praktikum RSBK 2018 Program Studi : S1 - Teknik Komputer Universitas Diponegoro
+# Keperluan Praktikum RSBK 2018 
+> Program Studi : **S1 - Teknik Komputer** 
+> [Universitas Diponegoro](https://www.undip.ac.id/language/id/ "UNDIP")
 
-Berisikan 4 modul, masing - masing :
+### Berisikan 4 modul, yaitu :
 
-- Java Bean dan Git
-- EJB Session Bean
-- CRUD EJB
-- Java Server Faces
+> 1. Java Bean dan Git
+> 2. EJB Session Bean
+> 3. CRUD EJB
+> 4. Java Server Faces
 
-Repo ini berisi :
+### Repo ini berisi :
 
-- Kelompok praktikum fix
-- Modul praktikum dari modul 1 - modul 4
-- SOP praktikum
-- Nilai praktikum
+> 1. Kelompok praktikum
+> 2. Modul praktikum dari modul 1 - modul 4
+> 3. SOP praktikum
+> 4. Nilai praktikum
