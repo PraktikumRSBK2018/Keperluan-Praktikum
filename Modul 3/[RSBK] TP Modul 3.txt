@@ -1,0 +1,6 @@
+TP MODUL 3
+JPA
+
+1. Sebutkan dan jelaskan macam EJB
+2. Jelaskan fungsi JPA
+3. Jelaekan konsep DAO
