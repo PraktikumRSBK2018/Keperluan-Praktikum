@@ -1,0 +1,12 @@
+TP Modul 4 ya
+
+1. Apa itu JSF
+2. Apa kegunaan Xampp pada praktikum ini
+3. Apa itu Session Bean
+4. Apa server yang digunakan pada pratkikum ini (jawaban di langkah kerja no.XX )
+5. Perbedaan html dengan xhtml 
+
+
+
+berikut link buat download mysql connector Java :
+https://drive.google.com/file/d/1MKccQHLtMnvH6S0bBa1dq74zasMNhrLz/view?usp=sharing
