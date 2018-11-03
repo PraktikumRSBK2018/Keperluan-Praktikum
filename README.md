@@ -14,4 +14,4 @@
 > 1. Kelompok praktikum
 > 2. Modul praktikum dari modul 1 - modul 4
 > 3. SOP praktikum
-> 4. Nilai praktikum : [![Form Nilai](https://img.shields.io/badge/style-for--the--badge-green.svg?logo=appveyor&longCache=true&Nilai=Form Nilai)](https://docs.google.com/spreadsheets/u/2/d/1WY5CqN4fLxEuC2-ElGOW1akKxjkPD0skgvLwExWIKH0/edit?usp=sharing_eil&ts=5bd5365d)
+> 4. Nilai praktikum : [![Form Nilai](https://img.shields.io/badge/Form-Nilai-blue.svg)](https://docs.google.com/spreadsheets/u/2/d/1WY5CqN4fLxEuC2-ElGOW1akKxjkPD0skgvLwExWIKH0/edit?usp=sharing_eil&ts=5bd5365d)
